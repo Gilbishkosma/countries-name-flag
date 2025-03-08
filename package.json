@@ -13,5 +13,9 @@
   ],
   "author": "Gilbish Kosma",
   "license": "ISC",
-  "description": "A NPM package to return the list of countries and its flag. It contains both short and full name of the country"
+  "description": "A NPM package to return the list of countries and its flag. It contains both short and full name of the country",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gilbishkosma/countries-name-flag.git"
+  }
 }
