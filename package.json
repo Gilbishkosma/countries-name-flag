@@ -1,0 +1,17 @@
+{
+  "name": "countries-name-flag",
+  "version": "1.0.3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "country",
+    "country-list",
+    "countries-name-flag"
+  ],
+  "author": "Gilbish Kosma",
+  "license": "ISC",
+  "description": "A NPM package to return the list of countries and its flag. It contains both short and full name of the country"
+}
