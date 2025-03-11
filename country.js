@@ -1961,6 +1961,8 @@ export const countries = [
   },
 ];
 
-export const countryMap = Object.fromEntries(
-  countries.map((country) => [country.alpha3, country])
+const countryByAlpha2 = Object.fromEntries(countries.map((c) => [c.alpha2, c]));
+const countryByAlpha3 = Object.fromEntries(countries.map((c) => [c.alpha3, c]));
+const countryByNumeric = Object.fromEntries(
+  countries.map((c) => [c.numeric, c])
 );
