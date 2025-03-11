@@ -1960,3 +1960,7 @@ export const countries = [
     numeric: '716',
   },
 ];
+
+export const countryMap = Object.fromEntries(
+  countries.map((country) => [country.alpha3, country])
+);
